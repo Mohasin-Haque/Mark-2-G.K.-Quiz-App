@@ -52,5 +52,6 @@ if (answer5 === "A" || answer5 === "Queen Victoria’s Proclamation") {
   score = score + 1
   console.log(`\nFinal Score: ${score} `)
   console.log(`\nShabash , ${name}!!! Aap ye quiz zeet gye h aur apko milega....\n\n\n\n\n\n\n\n\n\n\n\n\n Khud hi Lelo..Lockdown me paise khtm ho gye h.\n\nhahaha!!`)
+  
 
 }
