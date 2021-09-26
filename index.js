@@ -35,7 +35,7 @@ if (answer3 === "A" || answer3 === "Uttar Pradesh") {
 else {
   console.log("Glt jwab..")
 }
-let answer4 = readlineSync.question("8. Which state has the largest area?\nA. Maharashtra\nB. Madhya Pradesh\nC. Uttar Pradesh\nD. Rajasthan\n");
+let answer4 = readlineSync.question("4. Which state has the largest area?\nA. Maharashtra\nB. Madhya Pradesh\nC. Uttar Pradesh\nD. Rajasthan\n");
 
 if (answer4 === "D" || answer4 === "Rajasthan") {
   console.log("Bilkul shi jwab..,");
