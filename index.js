@@ -1,5 +1,5 @@
 const readlineSync = require('readline-sync');
-console.log("Welcome to the Great Indian G.K. quiz \nLet's see how much you know about your country..\nTest your knowledge about India by attempting 5 questions below...\n")
+console.log("Welcome to the Great Indian G.K. quiz \nLet's see how much you know about your country..\nTest your knowledge about India by attempting 5 questions below...\n\n The answer can be the option characters(in capital letters) or the options itself as it is \n\n");
 
 let name = readlineSync.question("But before starting I'm eager to know your name..\n")
 console.log(`\nWelcome ${name}, To kya aap taiyar h??!!\n`)
@@ -10,7 +10,7 @@ let answer1 = readlineSync.question("\n1. What is economical capital of India?\n
 if (answer1 === "C" || answer1 === "Mumbai") {
   console.log("Bilkul shi jwab..,");
   score = score + 1
-  console.log(`\nBilkul shi jwab.., ${name} ji! To hmara agla swal ye rha --->\n`)
+  console.log(`\nBilkul shi jwab.., ${name} ji! To hmara agla swal ye rha --->\n`);
 }
 else {
   console.log("Glt jwab..")
